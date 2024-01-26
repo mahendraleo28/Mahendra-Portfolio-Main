@@ -1,0 +1,142 @@
+.main-div-in-contact-page {
+    position: relative;
+    margin-top: 240px;
+    left: 100px;
+    width: 79vw;
+}
+.div-tag-in-contact-page {
+    position: relative;
+}
+.span-tag-in-contact-page {
+    margin-bottom: 15px;
+    display: block;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #999999;
+    font-weight: 500;
+    letter-spacing: 5px;
+}
+
+.h2-tag-in-contact-page {
+    font-size: 18px;
+    margin-bottom: 4em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 1.8;
+    position: relative;
+}
+.first-image-in-contact-tab {
+    width: 0vw;
+    overflow: hidden;
+    height: 24vw;
+}
+.col-md-5{
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.colorlib-feature {
+    text-align: left;
+    width: 100%;
+    float: left;
+    margin-bottom: 50px;
+    position: relative;
+}
+.fadeInLeft {
+    -webkit-animation-name: fadeInLeft;
+    animation-name: fadeInLeft;
+}
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+.colorlib-feature .colorlib-icon {
+    position: absolute;
+    top: 15px;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    display: table;
+    text-align: center;
+    background: #f2f3f7;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    border-radius: 2px;
+}
+.colorlib-feature.colorlib-feature-sm .colorlib-icon i {
+    color: #2c98f0;
+    font-size: 40px;
+}
+.icon-globe-outline:before {
+    content: "\e9df";
+}
+.colorlib-feature.colorlib-feature-sm .colorlib-text {
+    margin-top: 30px;
+}
+.colorlib-feature .colorlib-text {
+    padding-left: 120px;
+    /* width: 100%; */
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.icon-for-all-types-in-contact {
+    font-size: 60px;
+    color: #2c98f0;
+}
+.for-handling-width-in-contact-page {
+    display: block;
+    width: 300px;
+}
+.icon-for-all-types-in-contact-2 {
+    font-size: 60px;
+    color: #2c98f0;
+    margin-top: 100px !important;
+}
+.colorlib-feature-1 {
+    text-align: left;
+    width: 100%;
+    float: left;
+    margin-bottom: 50px;
+    position: relative;
+    margin-top: -50px;
+}
+.colorlib-feature-1.colorlib-feature-sm .colorlib-text {
+    margin-top: 30px;
+}
+.colorlib-feature-1 .colorlib-text {
+    padding-left: 120px;
+    /* width: 100%; */
+}
+.colorlib-feature-1.colorlib-feature-sm .colorlib-icon i {
+    color: #2c98f0;
+    font-size: 40px;
+}
+.colorlib-feature-1 .colorlib-icon-1 {
+    position: absolute;
+    top: 15px;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    display: table;
+    text-align: center;
+    background: #f2f3f7;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    border-radius: 2px;
+}
+@media only screen and (max-width: 767px) {
+    .main-div-in-contact-page {
+        margin-left: 30px;
+    }
+}

@@ -1,0 +1,108 @@
+.main-div-in-edu-page {
+    position: relative;
+    top: 120px;
+    left: 100px;
+    width: 79vw;
+}
+
+.span-tag-in-edu-page {
+    margin-bottom: 15px;
+    display: block;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #999999;
+    font-weight: 500;
+    letter-spacing: 5px;
+}
+
+.h2-tag-in-edu-page {
+    font-size: 18px;
+    margin-bottom: 4em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 1.8;
+    position: relative;
+}
+
+.first-image-in-edu-tab {
+    width: 0vw;
+    overflow: hidden;
+    height: 24vw;
+}
+
+.accordion-item {
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.accordion-item.active .accordion-content {
+    max-height: 1000px;
+    /* Adjust the max-height based on your content */
+    transition: max-height 0.5s ease;
+    /* Transition for max-height when opening */
+}
+
+.accordion-header {
+    width: 56vw;
+    background-color: #f2f3f7;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.accordion-header.active-header {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.accordion-content {
+    padding: 25px 25px; 
+    width: 52.2vw;
+    /* padding: 1.5em; */
+    margin-top: 5px;
+    border: 1px solid #e6e6e6 !important;
+    transition: max-height 0.3s ease;
+}
+.for-tittle-and-arrow {
+    display: flex;
+}
+.arrow {
+    transition: transform 0.3s ease;
+    /* margin-top: 15px; */
+    padding: 20px 25px;
+    /* margin-left: 600px; */
+}
+.accordion-item.active .arrow {
+ transform: rotate(90deg); 
+  }
+
+  .tittle-of-accordians {
+    padding: 20px 25px;
+    display: block;
+    width: 100%;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: "Quicksand", Arial, sans-serif;
+    position: relative;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    -ms-box-shadow: none !important;
+    -o-box-shadow: none !important;
+    box-shadow: none !important;
+  }
+  @media only screen and (max-width: 767px) {
+    .span-tag-in-edu-page, .h2-tag-in-edu-page, .accordion-tag-in-edu-tag {
+        margin-left: 30px;
+    }
+    .accordion-tag-in-edu-tag {
+        width: 100%;
+    }
+    .accordion-header {
+        width: 100%;
+    }
+    .accordion-content {
+        width: 84%;
+    }
+  }

@@ -1,0 +1,21 @@
+.main-div-in-landing-page {
+    position: relative;
+    top: 120px;
+    left: 100px;
+    width: 79vw;
+}
+.div-tag-in-landing-page {
+    position: relative;
+}
+.button-to-download-resume {
+    padding: 10px;
+    border: 1px solid;
+    width: 115px;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+@media screen and (max-width: 767px) { 
+    .main-div-in-landing-page {
+        margin-left: 40px;
+    }
+}
