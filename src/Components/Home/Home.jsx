@@ -75,15 +75,15 @@ export default function Home() {
 
   return (
     <div className={`main-div-in-rec ${isMenuOpen ? "mobile-menu-open" : ""}`}>
-      {isMenuOpen && (
-        <div className="overlay" onClick={toggleMenu}></div>
-      )}
-      <div className={`hamburger-menu ${isMenuOpen ? "hide" : ""}`} onClick={toggleMenu}>
-        <div className="bar"></div>
-        <div className="bar"></div>
-        <div className="bar"></div>
-      </div>
-      <div className={`div-tag-for-navbar ${isMenuOpen ? "active" : ""}`}>
+    {isMenuOpen && (
+      <div className="overlay" onClick={toggleMenu}></div>
+    )}
+    <div className={`hamburger-menu ${isMenuOpen ? "hide" : ""}`} onClick={toggleMenu}>
+      <div className="bar"></div>
+      <div className="bar"></div>
+      <div className="bar"></div>
+    </div>
+    <div className={`div-tag-for-navbar ${isMenuOpen ? "active" : ""}`}>
         <div>
           <img
             className="image-in-sidebar"
@@ -117,6 +117,7 @@ export default function Home() {
           <small>© Copyright ©2024 All rights reserved</small>
         </div>
       </div>
+      {!isMenuOpen && (
       <div className="This-is-secnd-container">
         <div ref={ref1}>
           <Landing />
@@ -137,6 +138,7 @@ export default function Home() {
           <Contact />
         </div>
       </div>
+    )}
     </div>
   );
 }

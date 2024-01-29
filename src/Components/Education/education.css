@@ -38,13 +38,12 @@
 
 .accordion-item.active .accordion-content {
     max-height: 1000px;
-    /* Adjust the max-height based on your content */
     transition: max-height 0.5s ease;
-    /* Transition for max-height when opening */
 }
 
 .accordion-header {
-    width: 56vw;
+    padding: 0px 25px; 
+    width: 80%;
     background-color: #f2f3f7;
     cursor: pointer;
     transition: background-color 0.3s ease;
@@ -57,8 +56,7 @@
 
 .accordion-content {
     padding: 25px 25px; 
-    width: 52.2vw;
-    /* padding: 1.5em; */
+    width: 79.8%;
     margin-top: 5px;
     border: 1px solid #e6e6e6 !important;
     transition: max-height 0.3s ease;
@@ -68,12 +66,10 @@
 }
 .arrow {
     transition: transform 0.3s ease;
-    /* margin-top: 15px; */
     padding: 20px 25px;
-    /* margin-left: 600px; */
 }
 .accordion-item.active .arrow {
- transform: rotate(90deg); 
+ transform: rotate(90deg);
   }
 
   .tittle-of-accordians {
@@ -93,16 +89,12 @@
     box-shadow: none !important;
   }
   @media only screen and (max-width: 767px) {
-    .span-tag-in-edu-page, .h2-tag-in-edu-page, .accordion-tag-in-edu-tag {
+    .main-div-in-edu-page {
         margin-left: 30px;
     }
-    .accordion-tag-in-edu-tag {
-        width: 100%;
-    }
-    .accordion-header {
-        width: 100%;
-    }
-    .accordion-content {
-        width: 84%;
+    .arrow {
+        transition: transform 0.3s ease;
+        padding: 40px 30px;
+        background-color: transparent;
     }
   }
