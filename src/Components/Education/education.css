@@ -96,10 +96,13 @@
     }
     .arrow {
         transition: transform 0.3s ease;
-        padding: 40px 0px;
+        padding: 25px 0px 0px 0px;
         background-color: transparent;
     }
     .tittle-of-accordians {
-        width: 200px;
+        width: 230px;
+    }
+    .accordion-tag-in-edu-tag {
+        width: 360px;
     }
   }
