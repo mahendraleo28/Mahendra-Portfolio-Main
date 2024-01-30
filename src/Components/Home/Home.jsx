@@ -54,7 +54,7 @@ export default function Home() {
         const sectionRef = sections[index].current;
         if (sectionRef) {
           const { top, bottom } = sectionRef.getBoundingClientRect();
-          if (top <= window.innerHeight / 1.5 && bottom >= window.innerHeight / 1.5) {
+          if (top <= window.innerHeight / 4 && bottom >= window.innerHeight / 4) {
             setActiveSection(index);
             break;
           }

@@ -1,6 +1,6 @@
 .main-div-in-experience-page {
     position: relative;
-    top: 120px;
+    top: 40px;
     left: 100px;
     width: 79vw;
 }
@@ -19,7 +19,7 @@
 
 .h2-tag-in-experience-page {
     font-size: 18px;
-    margin-bottom: 4em;
+    /* margin-bottom: 4em; */
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 5px;

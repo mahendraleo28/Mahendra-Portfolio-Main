@@ -1,6 +1,6 @@
 .div-tag-in-about-me-page {
     position: relative;
-    top: 120px;
+    top: 40px;
     left: 100px;
 }
 .first-image-in-about-page {
@@ -22,7 +22,7 @@
 }
 .h2-tag-in-about-page {
 font-size: 18px;
-margin-bottom: 4em;
+/* margin-bottom: 4em; */
 font-weight: 700;
 text-transform: uppercase;
 letter-spacing: 5px;
@@ -43,7 +43,7 @@ position: relative;
     padding: 3.0em;
     width: 100px;
     margin-left: 110px;
-    margin-top: 200px;
+    margin-top: 60px;
 }
 .services2 {
     margin-bottom: 80px;
@@ -54,7 +54,7 @@ position: relative;
     padding: 3.0em;
     width: 100px;
     margin-left: 110px;
-    margin-top: 200px;
+    margin-top: 60px;
 }
 .services3 {
     margin-bottom: 80px;
@@ -65,7 +65,7 @@ position: relative;
     padding: 3.0em;
     width: 100px;
     margin-left: 110px;
-    margin-top: 200px;
+    margin-top: 60px;
 }
 h3 {
     color: #000;

@@ -81,7 +81,7 @@ letter-spacing: 1px;
     line-height: 1.8;
     color: rgba(0, 0, 0, 0.7);
 }
-.hamburger-menu {
+/* .hamburger-menu {
     display: none;
     cursor: pointer;
     padding: 10px;
@@ -89,15 +89,15 @@ letter-spacing: 1px;
     top: 20px;
     left: 5px;
     z-index: 1000;
-  }
+  } */
   
-  .bar {
+  /* .bar {
     width: 25px;
     height: 3px;
     background-color: #333;
     margin: 6px 0;
     transition: 0.4s;
-  }
+  } */
   
   /* Mobile view styles */
   @media screen and (max-width: 767px) {

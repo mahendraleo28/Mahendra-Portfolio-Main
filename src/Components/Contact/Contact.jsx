@@ -25,7 +25,7 @@ export default function Contact() {
                 </div>
                 <div className="colorlib-text">
                   <p>
-                    <a href=" ">3/122, Near Panchayat Road, Tadanki Village, Pincode:521256</a>
+                    <a href="https://maps.app.goo.gl/F9WY5woNQ9Lic1G2A">3/122, Near Panchayat Road, Tadanki Village, Pincode:521256</a>
                   </p>
                 </div>
               </div>
