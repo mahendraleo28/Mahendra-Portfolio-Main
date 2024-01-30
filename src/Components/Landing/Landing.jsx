@@ -1,5 +1,4 @@
 import React from "react";
-import { CiSaveDown2 } from "react-icons/ci";
 import "./landing.css";
 
 export default function Landing() {
