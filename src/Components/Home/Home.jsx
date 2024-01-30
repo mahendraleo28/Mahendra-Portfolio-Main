@@ -81,8 +81,7 @@ export default function Home() {
         <div>
           <img
             className="image-in-sidebar"
-            src="https://images.pexels.com/photos/2448749/pexels-photo-2448749.jpeg?auto=compress&cs=tinysrgb&w=600"
-            alt=""
+            src={process.env.PUBLIC_URL + '/images/photo.png'} alt=" " 
           />
           <h1 className="text-in-header-for-homepage">Mahendra Suvarnaganti</h1>
           <h5 className="sub-tag-in-navbar-text">Software Developer</h5>
