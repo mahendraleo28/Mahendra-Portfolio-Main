@@ -65,7 +65,7 @@
 }
 .for-progress-bar-in-skills-page-2tags-2nd-tag {
     margin-left: 500px;
-    margin-top: -81px;
+    margin-top: -71px;
     text-align: left;
     width: 400px;
     padding: 20px;
@@ -132,6 +132,22 @@
 @media only screen and (max-width: 767px) {
     .paragraph-tag-in-skill-page ,.span-tag-in-skill-page ,.h2-tag-in-skill-page{
         width: 100%;
+        margin-left: 30px;
+    }
+    .for-progress-bar-in-skills-page-2tags-2nd-tag {
+        margin-left: 0px;
+        margin-top: 0px;
+        width: 330px;
+        margin-left: 10px;
+    }
+    .for-progress-bar-in-skills-page-2tags-1st-tag {
+        width: 330px;
+        margin-left: 10px;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .paragraph-tag-in-skill-page ,.span-tag-in-skill-page ,.h2-tag-in-skill-page{
+        width: 80%;
         margin-left: 30px;
     }
     .for-progress-bar-in-skills-page-2tags-2nd-tag {

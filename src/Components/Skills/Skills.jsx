@@ -10,7 +10,7 @@ export default function Skills() {
                 <div className="div-tag-in-aboute-me-page">
                     <span className="span-tag-in-skill-page" >MY SPECIALTY</span>
                     <h2 className="h2-tag-in-skill-page">MY SKILLS</h2>
-                    <p className="paragraph-tag-in-skill-page">A Java developer is responsible for designing, developing, and maintaining Java-based programs. His skill set would include writing a well-structured and developed code that would withstand rigorous testing and analysis.</p>
+                    <p className="paragraph-tag-in-skill-page">Experienced in Java and React for end-to-end development. Proven ability to craft scalable solutions, design responsive UIs, and collaborate cross-functionally. Passionate about staying current with evolving technologies.</p>
                     <div className="progress-bar-main-div-in-skill-page">
                         <div className="for-progress-bar-in-skills-page">
                             <div className="for-progress-bar-in-skills-page-2tags-1st-tag">

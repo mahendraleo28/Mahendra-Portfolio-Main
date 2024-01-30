@@ -42,6 +42,7 @@
 }
 
 .accordion-header {
+    overflow: hidden;
     padding: 0px 25px; 
     width: 80%;
     background-color: #f2f3f7;
@@ -94,7 +95,10 @@
     }
     .arrow {
         transition: transform 0.3s ease;
-        padding: 40px 30px;
+        padding: 40px 0px;
         background-color: transparent;
+    }
+    .tittle-of-accordians {
+        width: 200px;
     }
   }

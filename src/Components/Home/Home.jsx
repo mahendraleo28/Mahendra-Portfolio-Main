@@ -22,51 +22,45 @@ export default function Home() {
     setIsMenuOpen(!isMenuOpen);
   };
 
-  const handleClickhome = () => {
-    closeMenuAndScroll(ref1);
-  };
-  const handleClickabout = () => {
-    closeMenuAndScroll(ref2);
-  };
-  const handleClickskills = () => {
-    closeMenuAndScroll(ref3);
-  };
-  const handleClickeducations = () => {
-    closeMenuAndScroll(ref4);
-  };
-  const handleClickexperience = () => {
-    closeMenuAndScroll(ref5);
-  };
-  const handleClickcontact = () => {
-    closeMenuAndScroll(ref6);
+  const closeMenuAndScroll = (ref, index) => {
+    setIsMenuOpen(false);
+    setActiveSection(index);
+    ref.current?.scrollIntoView({ behavior: "smooth" });
   };
 
-  const closeMenuAndScroll = (ref) => {
-    setIsMenuOpen(false);
-    ref.current?.scrollIntoView({ behavior: "smooth" });
+  const handleClickhome = () => {
+    closeMenuAndScroll(ref1, 0);
+  };
+  const handleClickabout = () => {
+    closeMenuAndScroll(ref2, 1);
+  };
+  const handleClickskills = () => {
+    closeMenuAndScroll(ref3, 2);
+  };
+  const handleClickeducations = () => {
+    closeMenuAndScroll(ref4, 3);
+  };
+  const handleClickexperience = () => {
+    closeMenuAndScroll(ref5, 4);
+  };
+  const handleClickcontact = () => {
+    closeMenuAndScroll(ref6, 5);
   };
 
   useEffect(() => {
     const handleScroll = () => {
-      const observer = new IntersectionObserver(
-        (entries) => {
-          entries.forEach((entry, index) => {
-            if (entry.isIntersecting) {
-              setActiveSection(index);
-            }
-          });
-        },
-        { rootMargin: "0px 0px -30% 0px" } // Adjust the root margin as needed
-      );
-
       const sections = [ref1, ref2, ref3, ref4, ref5, ref6];
-      sections.forEach((sectionRef) => {
-        if (sectionRef.current) {
-          observer.observe(sectionRef.current);
+      for (let index = 0; index < sections.length; index++) {
+        const sectionRef = sections[index].current;
+        if (sectionRef) {
+          const { top, bottom } = sectionRef.getBoundingClientRect();
+          if (top <= window.innerHeight / 1.5 && bottom >= window.innerHeight / 1.5) {
+            setActiveSection(index);
+            break;
+          }
         }
-      });
+      }
     };
-
     window.addEventListener("scroll", handleScroll);
     return () => {
       window.removeEventListener("scroll", handleScroll);
@@ -75,15 +69,15 @@ export default function Home() {
 
   return (
     <div className={`main-div-in-rec ${isMenuOpen ? "mobile-menu-open" : ""}`}>
-    {isMenuOpen && (
-      <div className="overlay" onClick={toggleMenu}></div>
-    )}
-    <div className={`hamburger-menu ${isMenuOpen ? "hide" : ""}`} onClick={toggleMenu}>
-      <div className="bar"></div>
-      <div className="bar"></div>
-      <div className="bar"></div>
-    </div>
-    <div className={`div-tag-for-navbar ${isMenuOpen ? "active" : ""}`}>
+      {isMenuOpen && (
+        <div className="overlay" onClick={toggleMenu}></div>
+      )}
+      <div className={`hamburger-menu ${isMenuOpen ? "hide" : ""}`} onClick={toggleMenu}>
+        <div className="bar"></div>
+        <div className="bar"></div>
+        <div className="bar"></div>
+      </div>
+      <div className={`div-tag-for-navbar ${isMenuOpen ? "active" : ""}`}>
         <div>
           <img
             className="image-in-sidebar"
@@ -118,27 +112,27 @@ export default function Home() {
         </div>
       </div>
       {!isMenuOpen && (
-      <div className="This-is-secnd-container">
-        <div ref={ref1}>
-          <Landing />
+        <div className="This-is-secnd-container">
+          <div ref={ref1}>
+            <Landing />
+          </div>
+          <div ref={ref2}>
+            <About />
+          </div>
+          <div ref={ref3}>
+            <Skills />
+          </div>
+          <div ref={ref4}>
+            <Education />
+          </div>
+          <div ref={ref5}>
+            <Experience />
+          </div>
+          <div ref={ref6}>
+            <Contact />
+          </div>
         </div>
-        <div ref={ref2}>
-          <About />
-        </div>
-        <div ref={ref3}>
-          <Skills />
-        </div>
-        <div ref={ref4}>
-          <Education />
-        </div>
-        <div ref={ref5}>
-          <Experience />
-        </div>
-        <div ref={ref6}>
-          <Contact />
-        </div>
-      </div>
-    )}
+      )}
     </div>
   );
 }

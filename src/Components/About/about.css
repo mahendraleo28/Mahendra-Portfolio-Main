@@ -116,9 +116,11 @@ h3 {
     .services1,
     .services2,
     .services3 {
+      padding: 1em;
       text-align: center;
-      margin-bottom: -170px; /* Adjust spacing between items */
-      margin-left: 50%;
+      margin-bottom: -50px;
+      margin-left: 60%;
+      margin-top: 130px;
     }
   
     .logo-in-about-me1,
