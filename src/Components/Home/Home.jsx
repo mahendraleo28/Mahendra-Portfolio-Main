@@ -110,7 +110,6 @@ export default function Home() {
           <small>© Copyright ©2024 All rights reserved</small>
         </div>
       </div>
-      {!isMenuOpen && (
         <div className="This-is-secnd-container">
           <div ref={ref1}>
             <Landing />
@@ -131,7 +130,6 @@ export default function Home() {
             <Contact />
           </div>
         </div>
-      )}
     </div>
   );
 }
