@@ -15,17 +15,17 @@ export default function Skills() {
                         <div className="for-progress-bar-in-skills-page">
                             <div className="for-progress-bar-in-skills-page-2tags-1st-tag">
                                 <span>Html
-                                <ProgressBar className="progress-bar-for-html" completed={80} />
+                                <ProgressBar className="progress-bar-for-html" completed={90} />
                                 </span>
                             </div>
                             <div className="for-progress-bar-in-skills-page-2tags-2nd-tag">
                                 <span>Css
-                                <ProgressBar className="progress-bar-for-css" completed={70} />
+                                <ProgressBar className="progress-bar-for-css" completed={80} />
                                 </span>
                             </div>
                             <div className="for-progress-bar-in-skills-page-2tags-1st-tag">
                                 <span>Java Script
-                                <ProgressBar className="progress-bar-for-java-script" completed={60} />
+                                <ProgressBar className="progress-bar-for-java-script" completed={70} />
                                 </span>
                             </div>
                             <div className="for-progress-bar-in-skills-page-2tags-2nd-tag">
@@ -40,7 +40,7 @@ export default function Skills() {
                             </div>
                             <div className="for-progress-bar-in-skills-page-2tags-2nd-tag">
                                 <span>Java
-                                    <ProgressBar className="progress-bar-for-java" completed={60} />
+                                    <ProgressBar className="progress-bar-for-java" completed={70} />
                                      </span>
                             </div>
                         </div>
