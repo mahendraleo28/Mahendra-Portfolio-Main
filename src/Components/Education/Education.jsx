@@ -64,7 +64,7 @@ const Education = () => {
                             <div>
                                 <strong>High School Secondary Education | Zilla Parishad High School. </strong>
                                 I am pleased to showcase my academic journey through high school, culminating in a Cumulative Grade Point Average (CGPA) of 7.5. My secondary education at zilla parishad high school has been a formative period, laying the groundwork for my intellectual and personal development.
-                                <a href='https://teams.microsoft.com/l/message/48:notes/1707207766133?context=%7B%22contextType%22%3A%22chat%22%7D'>📄</a>
+                                <a href='https://drive.google.com/file/d/1-zWAL1PIKko2XYq-zskQXrt_lxT5fVOO/view?usp=drivesdk'>📄</a>
                             </div>
                         }
                         isOpen={openAccordion === 3}
