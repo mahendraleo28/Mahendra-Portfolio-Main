@@ -38,6 +38,7 @@ const Education = () => {
                             <div>
                                 <strong>Bachelor of Information Technology (B.IT) | Cumulative Grade Point Average (CGPA): 7.00/10.00. </strong>
                                  I am proud to present my Bachelor's degree in Information Technology, an academic journey that has equipped me with a robust foundation in cutting-edge technologies and comprehensive problem-solving skills. Achieving a commendable Cumulative Grade Point Average (CGPA) of 7.00 out of 10.00 reflects my dedication to academic excellence and a deep passion for the field.
+                            <a href='https://drive.google.com/file/d/1nrdsETwN6NEQhZjL0r8rFLBsQZQDF75r/view?usp=drivesdk'>📄</a>
                             </div>
                         }
                         isOpen={openAccordion === 1}
@@ -50,6 +51,7 @@ const Education = () => {
                             <div>
                                 <strong>Diploma in Metallurgical Engineering | Govt Polytechnic Vijayawada. </strong>
                                 I am delighted to present my Diploma in Metallurgical Engineering, a comprehensive program that has laid the groundwork for my journey in the field of materials science and engineering. This diploma, earned from Govt polytechnic vijayawada, reflects my commitment to excellence and passion for understanding and manipulating the properties of metals and alloys.
+                                <a href='https://drive.google.com/file/d/1yBkEWU5x0X8WZrxQ7w7Iv-7tLYHl3X3X/view?usp=drivesdk'>📄</a>
                             </div>
                         }
                         isOpen={openAccordion === 2}
@@ -62,6 +64,7 @@ const Education = () => {
                             <div>
                                 <strong>High School Secondary Education | Zilla Parishad High School. </strong>
                                 I am pleased to showcase my academic journey through high school, culminating in a Cumulative Grade Point Average (CGPA) of 7.5. My secondary education at zilla parishad high school has been a formative period, laying the groundwork for my intellectual and personal development.
+                                <a href='https://teams.microsoft.com/l/message/48:notes/1707207766133?context=%7B%22contextType%22%3A%22chat%22%7D'>📄</a>
                             </div>
                         }
                         isOpen={openAccordion === 3}

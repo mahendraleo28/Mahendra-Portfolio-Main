@@ -31,7 +31,7 @@ export default function Experience() {
                                 </div>
                                 <div className="timeline-label">
                                     <h2>
-                                        <a href=" ">Intership at TECHADEMY</a>
+                                        <a href="https://drive.google.com/file/d/1J-tGa9JqJfioRY9cJ5Fh9qS3Q47xSGMN/view?usp=drivesdk">Intership at TECHADEMY</a>
                                         <span> Feb 2022 - July 2022</span>
                                     </h2>
                                     <p>
@@ -48,7 +48,6 @@ export default function Experience() {
                         </article>
                     </div>
                 </div>
-                {/* <img className="first-image-in-experience-tab" src="https://xmple.com/wallpaper/single-plain-white-one-colour-solid-color-1024x576-c-ffffff-f-24.svg" alt="" /> */}
             </div>
         </div>
     )

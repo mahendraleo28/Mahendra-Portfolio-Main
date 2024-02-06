@@ -1,6 +1,6 @@
 .main-div-in-experience-page {
     position: relative;
-    top: 40px;
+    top: 0px;
     left: 100px;
     width: 79vw;
 }
@@ -172,5 +172,9 @@ p {
 @media only screen and (max-width: 767px) {
     .div-tag-in-experience-page {
         margin-left: 30px;
+        margin-top: -30px;
+    }
+    .div-tag-in-experience-page {
+        top: 38px;
     }
 }

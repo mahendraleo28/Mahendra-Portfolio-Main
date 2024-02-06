@@ -95,10 +95,12 @@ h3 {
 @media only screen and (max-width: 767px) {
     .main-div-in-about-page {
       padding: 20px; /* Adjust spacing as needed */
+      
     }
   
     .div-tag-in-about-me-page {
       text-align: left;
+      margin-top: -21px;
     }
   
     .span-tag-in-about-me-page,
@@ -115,7 +117,7 @@ h3 {
     .services1,
     .services2,
     .services3 {
-      padding: 0.2em;
+      padding: 4px 4px 4px 4px;
       text-align: center;
       margin-bottom: -200px;
       margin-left: 20px;
