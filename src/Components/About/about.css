@@ -148,7 +148,7 @@ h3 {
 
 .main-div-in-about-page {
   opacity: 0;
-  transform: translateX(-40px);
+  transform: translateX(40px);
   transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
 }
 
