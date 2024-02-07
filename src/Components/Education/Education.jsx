@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import './education.css';
+import React, { useEffect, useRef, useState } from "react";
+import "./education.css";
 
 const AccordionItem = ({ id, title, content, isOpen, onToggle }) => {
     return (
@@ -20,13 +20,35 @@ const AccordionItem = ({ id, title, content, isOpen, onToggle }) => {
 
 const Education = () => {
     const [openAccordion, setOpenAccordion] = useState(null);
+    const eduRef = useRef(null);
+    const [isVisible, setIsVisible] = useState(false);
 
     const toggleAccordion = (accordionId) => {
         setOpenAccordion((prev) => (prev === accordionId ? null : accordionId));
     };
 
+    useEffect(() => {
+        const handleScroll = () => {
+            const element = eduRef.current;
+            if (element) {
+                const { top, bottom } = element.getBoundingClientRect();
+                const windowHeight = window.innerHeight;
+                if (top < windowHeight && bottom >= 0) {
+                    setIsVisible(true);
+                } else {
+                    setIsVisible(false);
+                }
+            }
+        };
+
+        window.addEventListener("scroll", handleScroll);
+        return () => {
+            window.removeEventListener("scroll", handleScroll);
+        };
+    }, []);
+
     return (
-        <div className="main-div-in-edu-page">
+        <div ref={eduRef} className={`main-div-in-edu-page ${isVisible ? 'fade-in-right' : ''}`}>
             <div className="div-tag-in-aboute-me-page">
                 <span className="span-tag-in-edu-page">Education</span>
                 <h2 className="h2-tag-in-edu-page">Education</h2>

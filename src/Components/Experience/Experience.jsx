@@ -1,7 +1,31 @@
+import { useEffect, useRef, useState } from "react";
 import "./experience.css";
 export default function Experience() {
+    const [isVisible, setIsVisible] = useState(false);
+    const expref = useRef(null);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            const element = expref.current;
+            if (element) {
+                const { top, bottom } = element.getBoundingClientRect();
+                const windowHeight = window.innerHeight;
+                if (top < windowHeight && bottom >= 0) {
+                    setIsVisible(true);
+                } else {
+                    setIsVisible(false);
+                }
+            }
+        };
+
+        window.addEventListener("scroll", handleScroll);
+        return () => {
+            window.removeEventListener("scroll", handleScroll);
+        };
+    }, []);
+
     return (
-        <div className="main-div-in-experience-page">
+        <div ref={expref} className={`main-div-in-experience-page ${isVisible ? 'fade-in-right' : ''}`}>
             <div>
                 <div className="div-tag-in-experience-page">
                     <span className="span-tag-in-experience-page" >EXPERIENCE</span>

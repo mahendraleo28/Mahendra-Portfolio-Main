@@ -115,3 +115,15 @@ a {
         width: 360px;
     }
 }
+
+.main-div-in-edu-page {
+    opacity: 0;
+    transform: translateX(40px);
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+  }
+  
+  .main-div-in-edu-page.fade-in-right {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  
