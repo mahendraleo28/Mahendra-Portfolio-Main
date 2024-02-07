@@ -4,13 +4,16 @@
     left: 100px;
     width: 79vw;
 }
+
 .a-tag-in-landingpage {
     color: black;
     font-weight: bold;
 }
+
 .div-tag-in-landing-page {
     position: relative;
 }
+
 .button-to-download-resume {
     text-align: center;
     padding: 10px;
@@ -19,10 +22,12 @@
     margin-top: 100px;
     margin-bottom: 200px;
 }
-@media screen and (max-width: 767px) { 
+
+@media screen and (max-width: 767px) {
     .main-div-in-landing-page {
         margin-left: 40px;
     }
+
     .button-to-download-resume {
         text-align: center;
         padding: 10px;

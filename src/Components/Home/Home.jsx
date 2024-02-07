@@ -81,7 +81,7 @@ export default function Home() {
         <div>
           <img
             className="image-in-sidebar"
-            src={process.env.PUBLIC_URL + '/images/photo.png'} alt=" " 
+            src={process.env.PUBLIC_URL + '/images/photo1.jpg'} alt=" "
           />
           <h1 className="text-in-header-for-homepage">Mahendra Suvarnaganti</h1>
           <h5 className="sub-tag-in-navbar-text">Software Developer</h5>
@@ -110,26 +110,26 @@ export default function Home() {
           <small>© Copyright ©2024 All rights reserved</small>
         </div>
       </div>
-        <div className="This-is-secnd-container">
-          <div ref={ref1}>
-            <Landing />
-          </div>
-          <div ref={ref2}>
-            <About />
-          </div>
-          <div ref={ref3}>
-            <Skills />
-          </div>
-          <div ref={ref4}>
-            <Education />
-          </div>
-          <div ref={ref5}>
-            <Experience />
-          </div>
-          <div ref={ref6}>
-            <Contact />
-          </div>
+      <div className="This-is-secnd-container">
+        <div ref={ref1}>
+          <Landing />
         </div>
+        <div ref={ref2}>
+          <About />
+        </div>
+        <div ref={ref3}>
+          <Skills />
+        </div>
+        <div ref={ref4}>
+          <Education />
+        </div>
+        <div ref={ref5}>
+          <Experience />
+        </div>
+        <div ref={ref6}>
+          <Contact />
+        </div>
+      </div>
     </div>
   );
 }

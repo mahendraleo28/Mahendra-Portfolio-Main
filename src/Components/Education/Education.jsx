@@ -37,8 +37,8 @@ const Education = () => {
                         content={
                             <div>
                                 <strong>Bachelor of Information Technology (B.IT) | Cumulative Grade Point Average (CGPA): 7.00/10.00. </strong>
-                                 I am proud to present my Bachelor's degree in Information Technology, an academic journey that has equipped me with a robust foundation in cutting-edge technologies and comprehensive problem-solving skills. Achieving a commendable Cumulative Grade Point Average (CGPA) of 7.00 out of 10.00 reflects my dedication to academic excellence and a deep passion for the field.
-                            <a href='https://drive.google.com/file/d/1nrdsETwN6NEQhZjL0r8rFLBsQZQDF75r/view?usp=drivesdk'>📄</a>
+                                I am proud to present my Bachelor's degree in Information Technology, an academic journey that has equipped me with a robust foundation in cutting-edge technologies and comprehensive problem-solving skills. Achieving a commendable Cumulative Grade Point Average (CGPA) of 7.00 out of 10.00 reflects my dedication to academic excellence and a deep passion for the field.
+                                <a href='https://drive.google.com/file/d/1nrdsETwN6NEQhZjL0r8rFLBsQZQDF75r/view?usp=drivesdk'>📄</a>
                             </div>
                         }
                         isOpen={openAccordion === 1}

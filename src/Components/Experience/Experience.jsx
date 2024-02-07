@@ -10,7 +10,7 @@ export default function Experience() {
                         <article className="timeline-entry animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">
                             <div className="timeline-entry-inner">
                                 <div className="timeline-icon color-1">
-                                ✎
+                                    ✎
                                 </div>
                                 <div className="timeline-label">
                                     <h2>
@@ -27,7 +27,7 @@ export default function Experience() {
                         <article className="timeline-entry animate-box fadeInLeft animated" data-animate-effect="fadeInLeft">
                             <div className="timeline-entry-inner">
                                 <div className="timeline-icon color-2">
-                                ✎
+                                    ✎
                                 </div>
                                 <div className="timeline-label">
                                     <h2>
@@ -42,9 +42,9 @@ export default function Experience() {
                             </div>
                         </article>
                         <article className="timeline-entry begin animate-box fadeInUp animated" data-animate-effect="fadeInBottom">
-                        <div className="timeline-entry-inner">
-                        <div className="timeline-icon color-none"> </div>
-                        </div>
+                            <div className="timeline-entry-inner">
+                                <div className="timeline-icon color-none"> </div>
+                            </div>
                         </article>
                     </div>
                 </div>

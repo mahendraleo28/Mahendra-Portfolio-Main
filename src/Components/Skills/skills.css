@@ -2,7 +2,6 @@
     width: 0vw;
     overflow: hidden;
     margin-top: 60px;
-    /* height: 24vw; */
 }
 
 .div-tag-in-aboute-me-page {
@@ -38,7 +37,6 @@
 
 .h2-tag-in-skill-page {
     font-size: 18px;
-    /* margin-bottom: 4em; */
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 5px;
@@ -56,14 +54,16 @@
     width: 400px;
     text-align: left;
     padding: 20px 20px 20px 0px
-    /* background-color: aquamarine; */
 }
+
 .for-progress-bar-in-skills-page-2tags-1st-tag span {
     margin-left: 10px;
 }
+
 .for-progress-bar-in-skills-page-2tags-2nd-tag span {
     margin-left: 10px;
 }
+
 .for-progress-bar-in-skills-page-2tags-2nd-tag {
     margin-left: 500px;
     margin-top: -71px;
@@ -71,96 +71,127 @@
     width: 400px;
     padding: 20px 20px 20px 0px
 }
-.progress-bar-for-html div div{
+
+.progress-bar-for-html div div {
     background-color: #2c98f0 !important;
     height: 10px !important;
 }
+
 .progress-bar-for-css div div {
     background-color: #ec5453 !important;
     height: 10px !important;
 }
+
 .progress-bar-for-java-script div div {
     background-color: #f9bf3f !important;
     height: 10px !important;
 }
+
 .progress-bar-for-react div div {
     background-color: #a84cb8 !important;
     height: 10px !important;
 }
+
 .progress-bar-for-database div div {
     background-color: #2fa499 !important;
     height: 10px !important;
 }
+
 .progress-bar-for-java div {
     height: 10px !important;
 }
-.progress-bar-for-html div{
+
+.progress-bar-for-html div {
     height: 10px !important;
 }
+
 .progress-bar-for-css div {
     height: 10px !important;
 }
+
 .progress-bar-for-java-script div {
     height: 10px !important;
 }
+
 .progress-bar-for-react div {
     height: 10px !important;
 }
+
 .progress-bar-for-database div {
     height: 10px !important;
 }
+
 .progress-bar-for-java div {
     height: 10px !important;
 }
+
 .progress-bar-for-html div div span {
     font-size: 10px !important;
 }
+
 .progress-bar-for-css div div span {
     font-size: 10px !important;
 }
+
 .progress-bar-for-java-script div div span {
     font-size: 10px !important;
 }
+
 .progress-bar-for-react div div span {
     font-size: 10px !important;
 }
+
 .progress-bar-for-database div div span {
     font-size: 10px !important;
 }
+
 .progress-bar-for-java div div span {
     font-size: 10px !important;
 }
+
 @media only screen and (max-width: 767px) {
-    .paragraph-tag-in-skill-page ,.span-tag-in-skill-page ,.h2-tag-in-skill-page{
+
+    .paragraph-tag-in-skill-page,
+    .span-tag-in-skill-page,
+    .h2-tag-in-skill-page {
         width: 100%;
         margin-left: 30px;
     }
+
     .for-progress-bar-in-skills-page-2tags-2nd-tag {
         margin-left: 0px;
         margin-top: 0px;
         width: 330px;
         margin-left: 10px;
     }
+
     .for-progress-bar-in-skills-page-2tags-1st-tag {
         width: 330px;
         margin-left: 10px;
     }
 }
+
 @media only screen and (max-width: 992px) {
-    .paragraph-tag-in-skill-page ,.span-tag-in-skill-page ,.h2-tag-in-skill-page{
+
+    .paragraph-tag-in-skill-page,
+    .span-tag-in-skill-page,
+    .h2-tag-in-skill-page {
         width: 80%;
         margin-left: 30px;
     }
+
     .for-progress-bar-in-skills-page-2tags-2nd-tag {
         margin-left: 0px;
         margin-top: 0px;
         width: 330px;
         margin-left: 30px;
     }
+
     .for-progress-bar-in-skills-page-2tags-1st-tag {
         width: 330px;
         margin-left: 30px;
     }
+
     .main-div-in-skills-page {
         margin-top: 30px;
     }

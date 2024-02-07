@@ -10,9 +10,6 @@ export default function Landing() {
           <h1 className="Header-tag-for-text-in-second-div">I'm Mahendra</h1>
           <div className="button-to-download-resume">
             <a className="a-tag-in-landingpage" href="https://drive.google.com/file/d/1UR2CcFSPXXHnpug8tLTXadagTto_lHmr/view?usp=drivesdk">Download CV ⬇</a>
-            <span>
-              {/* <CiSaveDown2 fontSize="medium" /> */}
-            </span>
           </div>
         </div>
       </div>
