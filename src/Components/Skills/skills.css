@@ -96,8 +96,22 @@
     background-color: #2fa499 !important;
     height: 10px !important;
 }
+.progress-bar-for-bootstrap  div div {
+    background-color: #4c4c4c !important;
+    height: 10px !important;
+}
+.progress-bar-for-springboot div div {
+    background-color: #2fc68a !important;
+    height: 10px !important;
+}
 
 .progress-bar-for-java div {
+    height: 10px !important;
+}
+.progress-bar-for-bootstrap  div{
+    height: 10px !important;
+}
+.progress-bar-for-springboot div{
     height: 10px !important;
 }
 
@@ -146,6 +160,12 @@
 }
 
 .progress-bar-for-java div div span {
+    font-size: 10px !important;
+}
+.progress-bar-for-bootstrap div div span {
+    font-size: 10px !important;
+}
+.progress-bar-for-springboot div div span {
     font-size: 10px !important;
 }
 
@@ -198,7 +218,7 @@
 }
 .main-div-in-skills-page {
     opacity: 0;
-    transform: translateX(-40px);
+    transform: translateX(40px);
     transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
   }
   

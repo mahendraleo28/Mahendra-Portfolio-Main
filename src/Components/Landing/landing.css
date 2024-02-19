@@ -22,6 +22,15 @@
     margin-top: 100px;
     margin-bottom: 200px;
 }
+.header-tag-to-get-big {
+    position: absolute;
+    opacity: 2%;
+    width: 100px;
+    left:400px;
+    top:0px;
+    font-size: 100px;
+    font-family: 'Times New Roman', Times, serif;
+}
 
 @media screen and (max-width: 767px) {
     .main-div-in-landing-page {

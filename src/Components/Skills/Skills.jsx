@@ -69,6 +69,16 @@ export default function Skills() {
                                 <ProgressBar className="progress-bar-for-java" completed={70} />
                             </span>
                         </div>
+                        <div className="for-progress-bar-in-skills-page-2tags-1st-tag">
+                            <span> Bootstrap
+                                <ProgressBar className="progress-bar-for-bootstrap" completed={80} />
+                            </span>
+                        </div>
+                        <div className="for-progress-bar-in-skills-page-2tags-2nd-tag">
+                            <span>Spring Boot
+                                <ProgressBar className="progress-bar-for-springboot" completed={70} />
+                            </span>
+                        </div>
                     </div>
                 </div>
             </div>
