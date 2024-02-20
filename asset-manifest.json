@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Mahendra-Portfolio-Main/static/css/main.cfea0344.css",
-    "main.js": "/Mahendra-Portfolio-Main/static/js/main.f8d11567.js",
+    "main.css": "/Mahendra-Portfolio-Main/static/css/main.9fc44159.css",
+    "main.js": "/Mahendra-Portfolio-Main/static/js/main.ae13e9ed.js",
     "static/js/787.5ba8707b.chunk.js": "/Mahendra-Portfolio-Main/static/js/787.5ba8707b.chunk.js",
     "index.html": "/Mahendra-Portfolio-Main/index.html",
-    "main.cfea0344.css.map": "/Mahendra-Portfolio-Main/static/css/main.cfea0344.css.map",
-    "main.f8d11567.js.map": "/Mahendra-Portfolio-Main/static/js/main.f8d11567.js.map",
+    "main.9fc44159.css.map": "/Mahendra-Portfolio-Main/static/css/main.9fc44159.css.map",
+    "main.ae13e9ed.js.map": "/Mahendra-Portfolio-Main/static/js/main.ae13e9ed.js.map",
     "787.5ba8707b.chunk.js.map": "/Mahendra-Portfolio-Main/static/js/787.5ba8707b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cfea0344.css",
-    "static/js/main.f8d11567.js"
+    "static/css/main.9fc44159.css",
+    "static/js/main.ae13e9ed.js"
   ]
 }
